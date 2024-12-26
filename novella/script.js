@@ -2,7 +2,7 @@ const htmlElements = [
     {
         question: `
             <section class="game__question">
-                <img src="../images/put.jpg" alt="Приключение в лесу" class="game__image">
+                <img src="./images/put.jpg" alt="Приключение в лесу" class="game__image">
                 <p class="game__text">Во время путешествия по лесу вы потерялись и перед вами оказалось 3 пути, всё таки получилось прям как в мультике. По какому вы решите пойти?</p>
                 <div class="game__items">
                     <button class="game__option" onclick="checkAnswer('a', 0)">A) Левый путь</button>
@@ -17,7 +17,7 @@ const htmlElements = [
     {
         question: `
             <section class="game__question">
-                <img src="../images/moster.jpg" alt="Приключение в лесу" class="game__image">
+                <img src="./images/moster.jpg" alt="Приключение в лесу" class="game__image">
                 <p class="game__text">Как только вы выбрали путь, из кустов выпрыгнул монстр, что вы будете делать?</p>
                 <div class="game__items">
                     <button class="game__option" onclick="checkAnswer('a', 1)">A) Бросится бежать</button>
@@ -32,7 +32,7 @@ const htmlElements = [
     {
         question: `
             <section class="game__question">
-                <img src="../images/sword.jpg" alt="Приключение в лесу" class="game__image">
+                <img src="./images/sword.jpg" alt="Приключение в лесу" class="game__image">
                 <p class="game__text">Мостр решил не дожидаться вашего решения и убежал сам, вы пошли дальше по тропинке и нашли меч, что вы будете делать?</p>
                 <div class="game__items">
                     <button class="game__option" onclick="checkAnswer('a', 2)">A) Взять меч</button>
@@ -47,7 +47,7 @@ const htmlElements = [
     {
         question: `
             <section class="game__question">
-            <img src="../images/darksword.jpg" alt="Приключение в лесу" class="game__image">
+            <img src="./images/darksword.jpg" alt="Приключение в лесу" class="game__image">
                 <p class="game__text">Вы чувствуете как меч пытается с вами заговорить у вас в голове, он спрашивает хотели бы вы изменить этот мир и рассказывает о том каким бы мир мог бы быть. Каков ваш выбор?</p>
                 <div class="game__items">
                     <button class="game__option" onclick="checkAnswer('a', 3)">A) Изменить мир</button>
@@ -62,7 +62,7 @@ const htmlElements = [
     {
         question: `
             <section class="game__question">
-            <img src="../images/swordlight.jpg" alt="Приключение в лесу" class="game__image">
+            <img src="./images/swordlight.jpg" alt="Приключение в лесу" class="game__image">
                 <p class="game__text">Вы чувствуете, что меч начинает менять вас. Его энергия проникает в ваше сознание, заполняя его мыслями о могуществе и опасности. Это ваш последний шанс принять решение. Что вы сделаете?</p>
                 <div class="game__items">
                     <button class="game__option" onclick="checkAnswer('a', 4)">A) Использовать его силу</button>
